@@ -2,7 +2,10 @@
 <html>
     <head>
     	<meta charset="utf-8" />
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     	<title></title>
         <script src="https://kit.fontawesome.com/8f6ad5d571.js" crossorigin="anonymous"></script>
     </head>
@@ -24,46 +27,45 @@
              
             </header>
 
-             <section1>
+            <div id="head">
               <h1>Trouver votre hébergemnt pour des vacances de rêve</h1>
               <p>En plein centre ville ou plaine nature</p>
 
-             <form method="post" action="traitement">
-                  <div><i class="fas fa-map-marker-alt"></i></div>
+              <form method="post" action="#">
+                  <div id="position"><i class="fas fa-map-marker-alt"></i></div>
                   <input type="search" placeholder="Marseille, France"/>
-                  <div>Recherche</div>
-             </form>
+                  <input type="submit" class="button" value="Rechercher">
+              </form>
 
-             <div>
-              <div><h3>Filtre</h3></div>
-              <div><i class="fas fa-money-bill-wave"></i>Économique</div>
-              <div><i class="fas fa-child"></i>Familiale</div>
-              <div><i class="fas fa-heart"></i>Romantique</div>
-              <div><i class="fas fa-dog"></i>Animaux autorisés</div>
-             </div>
+              <div class="flex">
 
-             <div>
-              <div><i class="fas fa-info"></i></div>
-              <div><p>Plus de 500 logements sont disponible dans cette ville</p></div>
+               <h3>Filtre</h3>
+               <div class="icons"><i class="fas fa-money-bill-wave"></i>Économique</div>
+               <div class="icons"><i class="fas fa-child"></i>Familiale</div>
+               <div class="icons"><i class="fas fa-heart"></i>Romantique</div>
+               <div class="icons"><i class="fas fa-dog"></i>Animaux autorisés</div>
+              </div>
+
+             <div class="flex">
+              <div class="icon"><i class="fas fa-info"></i></div>
+              <p>Plus de 500 logements sont disponible dans cette ville</p>
              </div>
-             </section1>
-            
              
              <section>
-
-              <article>
-
-                <h2 id="Hébergements">Hébergements à Marseille</h2>
-                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la cannebiere"/>
-                <h3>Auberge de la cannebiere</h3>
-                <p>Nuit à partir de 25€</p>
-                <div>
-                   <div><i class="fas fa-star"></i></div>
-                   <div><i class="fas fa-star"></i></div>
-                   <div><i class="fas fa-star"></i></div>
-                   <div><i class="fas fa-star"></i></div>
-                   <div><i class="far fa-star"></i></div>
-                </div>
+                 <div class="back-ground">
+                     <div class="flex2">
+                         <div class="miniature">
+                            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la cannebiere"/>
+                            <h2 id="Hébergements">Hébergements à Marseille</h2>
+                            <h3>Auberge de la cannebiere</h3>
+                            <p>Nuit à partir de 25€</p>
+                            <div>
+                                <div class="star4"><i class="fas fa-star"></i></div>
+                                <div class="star4"><i class="fas fa-star"></i></div>
+                                <div class="star4"><i class="fas fa-star"></i></div>
+                                <div class="star4"><i class="fas fa-star"></i></div>
+                                <div class="star3"><i class="far fa-star"></i></div>
+                           </div>
               
                 <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"/>
                 <h3>Hôtel du port</h3>
@@ -161,48 +163,58 @@
                  </article>
                 </section>
 
-                <div>
-                 <h2 id="Activités">Activités à Marseille</h2>
-                 <div>
-                  <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"/>
-                  <p>Vieux Port</p>
+                <section2>
+                    <
+                    <h2 id="Activités">Activités à Marseille</h2>
+                    <
+                    <div class="flex2">
+                        <
+                        <a href="#"><img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Carte du vieux port"/></a>
+                        <p>Vieux Port</p>
+                        <
 
-                  <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"/>
-                  <p>Fort de Pomègue</p>
+                        <a href="#"><img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Carte Fort de Pomègue"/></a>
+                        <p>Fort de Pomègue</p>
 
-                  <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"/>
-                  <p>Îles du Frioul</p>
+                        <a href="#"><img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Carte Îles du Frioul"/></a>
+                        <p>Îles du Frioul</p>
 
-                  <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"/>
-                  <p>Parc National des Calanques</p>
+                        <a href="#"><img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Carte Parc National des Calanques"/><a/>
+                        <p>Parc National des Calanques</p>
 
-                  <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"/>
-                  <p>Notre-Dame-de-la-Gardes</p>
+                        <a href="#"><img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Carte Notre-Dame-de-la-Gardes"/></a>>
+                        <p>Notre-Dame-de-la-Gardes</p>
 
-                  <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"/>
-                  <p>Parc Longchamp</p>
-                 </div>
-                </div>
+                        <a href="#"><img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Carte Parc Longchamp"/></a>
+                        <p>Parc Longchamp</p>
+                   </div>
+                </section2>
 
                 <footer>
-                 <div>
-                  <h3>A propos</h3>
-                  <p>Fonctionnement du site</p>
-                  <p>Conditions générales de vente</p>
-                  <p>Données et confidentialités</p>
-                 </div>
+                    <
+                    <div class="flex-footer">
+                        <
+                        <h3>A propos</h3>
+                        <p>Fonctionnement du site</p>
+                        <p>Conditions générales de vente</p>
+                        <p>Données et confidentialités</p>
+                    </div>
+                    <
 
-                 <div>
-                  <h3>Nos hébergement</h3>
-                  <p>Charte de qualité</p>
-                  <p>Soumettre votre hôtel</p>
-                 </div>
+                    <div class="flex-footer">
+                        <
+                        <h3>Nos hébergement</h3>
+                        <p>Charte de qualité</p>
+                        <p>Soumettre votre hôtel</p>
+                    </div>
+                    <
 
-                 <div>
-                  <h3>Assistance</h3>
-                  <p>Centre d'aide</p>
-                  <p>Nous contacter</p>
-                 </div>
+                    <div class="flex-footer">
+                        <
+                        <h3>Assistance</h3>
+                        <p>Centre d'aide</p>
+                        <p>Nous contacter</p>
+                        </div>
 
                 </footer>
         
