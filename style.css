@@ -2,3 +2,57 @@
     font-family: 'Raleway', sans-serif;
 }
 
+#bloc_page{
+    width: 992px;
+    margin: auto;
+}
+
+p, h1, h2, h3, input, .icons, li{
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    
+                   
+}
+   
+
+nav a {
+    text-decoration: none;
+    padding-right: 30px;
+    
+         
+    
+}
+
+#logo{
+    margin-top: 20px;
+    
+}
+
+img{
+    height: 40px;
+}
+
+nav{
+    margin-top: 20px;
+}
+  
+
+li, a{
+    color:#0065FC
+}
+
+
+
+
+
+
