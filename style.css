@@ -3,53 +3,144 @@
 }
 
 #bloc_page{
-    width: 992px;
-    margin: auto;
+    max-width: 1400px;
+    
 }
 
-p, h1, h2, h3, input, .icons, li{
-    font-weight: bold;
+body{
+    display: flex;
+    justify-content: center;
 }
 
-header{
+header{ 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
+       
     
 }
 
-nav ul {
+ul{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style-type: none;
     
-                   
+    
+    
+    
+    
+    
+                            
+}
+
+nav{
+    width: 45%;
+    
 }
    
 
-nav a {
+ul a{
     text-decoration: none;
-    padding-right: 30px;
+    border: 1px solid black
     
-         
     
 }
 
 #logo{
-    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    
     
 }
 
-img{
-    height: 40px;
+    
+    
 }
 
-nav{
-    margin-top: 20px;
-}
-  
 
-li, a{
-    color:#0065FC
+
+
+#entete{
+    display: ;
+    
 }
+
+h1{
+    font-size: 16px;
+    
+    
+}
+
+p{
+    font-size: 12px;
+    margin-bottom: px;
+}
+
+form{
+    display: flex;
+}
+
+#filtre{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+#margtitrefiltre{
+    margin-right: 20px;
+}
+
+.filtretexteicons{
+    border: 2px solid #f2f2f2;
+    border-radius: 30px;
+    height: 50px;    
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+
+}
+
+.filtreicons{
+    background-color: #deebfd;
+    border-radius: 26px;
+    color: #0065FC;
+    height: 53px;
+    width: 53px;
+    margin-left: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.filtretexte{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.filtretexte:hover{
+    color: #0065FC;
+}
+
+.filtreicons:hover{
+    background-color: #0065FC;
+    color: white;
+}
+
+
+
+
+
+
 
 
 
