@@ -26,12 +26,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-    
-    
-    
-    
-    
-    
+                   
                             
 }
 
@@ -43,8 +38,12 @@ nav{
 
 ul a{
     text-decoration: none;
-    border: 1px solid black
-    
+                    
+}
+
+li a:hover{
+    padding-top: 23px;
+    border-top: 2px solid #0065FC;
     
 }
 
@@ -82,13 +81,20 @@ ul a{
     border-style: none;
 
 }
+    
+    
 
 .button{
     background-color: #0065FC;
     color: white;
     font-weight: bold;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 10px 10px 0px;        
 }
+
+
+    
+    
+
 
 #filtre{
     display: flex;
@@ -160,6 +166,118 @@ ul a{
     align-items: center;
     margin-right: 10px;
 }
+
+
+
+
+
+.blocfondgris{
+    background-color: lightgray;
+    height: 650px;
+    flex: 2;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+section img{
+    width: 300px;
+    height: 120px;
+    border-radius: 20px 20px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+section article{
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    padding: 3px;
+}
+
+.casehebergement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 800px;
+    height:520px;
+}
+
+.stars{
+    display: flex;
+}
+
+.Marseillecase{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3px;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+.blocfondgrispopulaires{
+    background-color: lightgray;
+    height: 650px;
+    flex: 1;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+section{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerfondgris{
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    height: 190px;
+    
+    
+    
+}
+
+.textefooter{
+    height: 150px;
+    padding-right: 100px;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+
+
 
 
 
