@@ -54,41 +54,53 @@ li a:hover{
     
 }
 
-.parentbarrenav{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: 400px;
-    border-radius: 10px;
-    border: 2px solid #f2f2f2;
-}
-
-.iconposition{
-    width: 50px;
-    height: 50px;
-    background-color: #f2f2f2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+input{
+    border: none;
+    
+     
+    
     
 }
 
-.recherche{
-    height: 50px;
-    width: 230px;
-    color: black;
-    font-weight: bold;
-    border-style: none;
+.enfantbarrenav{
+    display:flex;
+    text-align: inherit;
+}
 
+.iconposition{
+    background: #F2F2F2;
+    border: 1px #F2F2F2 solid;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 15px 0 0 15px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    
+    
+}
+
+input{
+    background: transparent;
+    border: 1px #F2F2F2 solid;
+    padding: 11px 5vw;
+    margin-left: -4px;
+    height: 20px;
+    padding-bottom: 32px;
+    
 }
     
     
 
 .button{
-    background-color: #0065FC;
-    color: white;
-    font-weight: bold;
-    border-radius: 0px 10px 10px 0px;        
+    display: flex;
+    align-items: center;
+    font-weight: bold;  
+    background: #0065FC;
+    border: 1px #0065FC solid;
+    border-radius: 0 15px 15px 0;
+    color: #FFF;
+    height: 43px;
+    padding: 0px 15px;
 }
 
 
@@ -171,72 +183,95 @@ li a:hover{
 
 
 
-.blocfondgris{
-    background-color: lightgray;
-    height: 650px;
-    flex: 2;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-
-
 section img{
-    width: 300px;
-    height: 120px;
-    border-radius: 20px 20px 0px 0px;
-    background-size: cover;
-    background-position: center;
-    
+    height: 105px;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 20px 20px 0 0;
 }
 
+section{
+    display: flex;
+    flex-flow: row wrap;
+}
 
-section article{
-    background-color: white;
+.blocfondgris{
+    background: #F2F2F2;
     border-radius: 20px;
-    height: 200px;
-    width: 200px;
-    padding: 3px;
+    padding: 30px 25px;
+    min-height: 519px;
+    margin-bottom: 20px;
+    order: 1;
+    flex: 1;
+    margin-right: 3%;
 }
 
 .casehebergement{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 800px;
-    height:520px;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+Article{
+    width: calc(100% / 3.3);
+    background: #FFF;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0 0 30px 0;
+    box-shadow: 0px 0px 10px #55555538;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.casetexte{
+    padding: 10px;
+    position: relative;
 }
 
 .stars{
     display: flex;
 }
 
-.Marseillecase{
+.blocfondgrispopulaires{
+    order: 2;
+    flex: 0 1 35%;
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 30px 25px;
+    min-height: 519px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    
+}
+
+.titreeticone{
     display: flex;
-    justify-content: space-around;
-    padding-top: 3px;
-    align-items: center;
+    justify-content: space-between;
+}
+
+.blocfondgrispopulaires article{
+    width: 70%;
+    display: flex;
+    
     
 }
 
 
-
-
-
-
-
-
-.blocfondgrispopulaires{
-    background-color: lightgray;
-    height: 650px;
-    flex: 1;
-    margin-left: 20px;
-    border-radius: 10px;
+.populairestexte{
+    flex-direction: column;
+    
 }
 
-section{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+
+.populairescase{
+       
+    height: 115px;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+    width: 30%;
 }
 
 
@@ -248,8 +283,11 @@ section{
 
 
 
+footer{
+    background-color: #f2f2f2;
+    width:100%;
 
-
+}
 
 
 
@@ -257,22 +295,19 @@ section{
 
 .footerfondgris{
     display: flex;
-    background-color: lightgray;
-    align-items: center;
-    height: 190px;
-    
+    padding: 32px 32px;
+        
     
     
 }
 
 .textefooter{
-    height: 150px;
-    padding-right: 100px;
-    margin-left: 30px;
-    font-size: 13px;
-    font-weight: bold;
-    margin-top: 20px;
+    width: 30%;
+    padding: 32px 32px
 }
+   
+    
+
 
 
 
