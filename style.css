@@ -30,20 +30,22 @@ ul{
                             
 }
 
-nav{
-    width: 45%;
-    
-}
    
 
 ul a{
     text-decoration: none;
+    padding-right: 40px;
+    color: black;
                     
 }
 
 li a:hover{
     padding-top: 23px;
     border-top: 2px solid #0065FC;
+    color: #0065FC;
+    font-weight: bold;
+    
+    
     
 }
 
@@ -84,8 +86,7 @@ input{
     border: 1px #F2F2F2 solid;
     padding: 11px 5vw;
     margin-left: -4px;
-    height: 20px;
-    padding-bottom: 32px;
+   
     
 }
     
@@ -101,6 +102,11 @@ input{
     color: #FFF;
     height: 43px;
     padding: 0px 15px;
+}
+
+input placeholder{
+    font-weight: bold;
+
 }
 
 
@@ -190,19 +196,17 @@ section img{
     border-radius: 20px 20px 0 0;
 }
 
-section{
+.hebergementetpopulaire{
     display: flex;
-    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
-.blocfondgris{
+section{
     background: #F2F2F2;
     border-radius: 20px;
     padding: 30px 25px;
     margin-bottom: 20px;
-    order: 1;
-    flex: 1;
-    margin-right: 3%;
+    width: 60%;
 }
 
 .casehebergement{
@@ -236,14 +240,13 @@ Article{
     align-items: flex-end;
 }
 
-.blocfondgrispopulaires{
-    order: 2;
-    flex: 0 1 30%;
+section{
     background: #F2F2F2;
     border-radius: 20px;
     padding: 30px 25px;
     margin-bottom: 20px;
     flex-direction: column;
+    width: 27%;
    
     
     
@@ -255,7 +258,7 @@ Article{
     align-items: center;
 }
 
-.blocfondgrispopulaires article{
+section article{
     width: 75%;
     display: flex;
     
@@ -273,7 +276,7 @@ Article{
 }
 
 
-.blocfondgrispopulaires img{
+section img{
        
     
     border-radius: 20px 0px 0px 20px;
@@ -300,7 +303,7 @@ article p{
     color: #0065FC;
 }
 
-span{
+.etoilegris{
     opacity: 0.40;
     color: lightgray;
 }
@@ -323,22 +326,6 @@ span{
     border-radius: 20px;
     background-position: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
