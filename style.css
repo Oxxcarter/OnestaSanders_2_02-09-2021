@@ -10,6 +10,7 @@
 body{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 header{ 
@@ -104,10 +105,6 @@ input{
     padding: 0px 15px;
 }
 
-input placeholder{
-    font-weight: bold;
-
-}
 
 
     
@@ -189,7 +186,9 @@ input placeholder{
 
 
 
-section img{
+
+
+.hebergementetpopulaire img{
     height: 105px;
     object-fit: cover;
     width: 100%;
@@ -201,7 +200,7 @@ section img{
     justify-content: space-between;
 }
 
-section{
+.hebergementfondgris{
     background: #F2F2F2;
     border-radius: 20px;
     padding: 30px 25px;
@@ -216,7 +215,7 @@ section{
     border-radius: 20px;
 }
 
-Article{
+.backgroundwhite{
     width: 31%;
     background: #FFF;
     padding: 5px;
@@ -229,10 +228,7 @@ Article{
 
 .casetexte{
     padding: 10px;
-    position: relative;
-    
-  
-    
+    position: relative;          
 }
 
 .stars{
@@ -240,16 +236,13 @@ Article{
     align-items: flex-end;
 }
 
-section{
+.fondgrispopulaires{
     background: #F2F2F2;
     border-radius: 20px;
     padding: 30px 25px;
     margin-bottom: 20px;
     flex-direction: column;
-    width: 27%;
-   
-    
-    
+    width: 27%;          
 }
 
 .titreeticone{
@@ -258,32 +251,39 @@ section{
     align-items: center;
 }
 
-section article{
-    width: 75%;
-    display: flex;
-    
-    
-    
+.fondgrispopulaires article{
+    width:100%;
+    display: flex;            
 }
 
 
 .populairestexte{
     flex-direction: column;
     padding-left: 15px;
-    padding-top: 10px;
-    
-    
+    padding-top: 10px;            
 }
 
 
-section img{
-       
-    
+.fondgrispopulaires img{           
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
     width: 30%;
-    margin-top: 0px;
-    
+    margin-top: 0px;   
+}
+
+.backgroundwhitepopulaires{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.bloc-populaires12 {
+    margin-bottom: 22px;
+}
+
+.flex-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -291,7 +291,6 @@ section img{
 article h3{
     margin-top: 0px;
     margin-bottom: 0px;
-
 }
 
 article p{
@@ -312,19 +311,96 @@ article p{
 
 
 
-.portetcalanque img{
-    border-radius: 20px;
-    width: 18%;
-    height: 300px;
-    object-fit: cover;
 
+
+
+.blocactivités{
+    width: 100%;
+}
+
+.flexbetween{
+    display: flex;
+    justify-content: space-between;
 }
 
 .portetcalanque{
-    background-color: white;
-    width: 82%;
-    border-radius: 20px;
-    background-position: center;
+    width: 23%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+
+.pomegueetfrioul{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    
+}
+
+.notredameetlongchamp{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    
+}
+
+.blocactivitéspomegueetfrioul{
+    width: 23%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blocactivitésnotredametlongchamp{
+    width: 23%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.activitésimg1{
+    object-fit: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+
+.activitésimg2{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+}
+
+.activitésimg3{
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+.activitésimg4{
+    object-fit: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0;
+}
+
+.activitésimg5{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.activitésimg6{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
 }
 
 
@@ -334,24 +410,15 @@ article p{
 footer{
     background-color: #f2f2f2;
     width:100%;
-
 }
-
-
-
-
 
 .footerfondgris{
     display: flex;
     padding: 32px 32px;
-        
-    
-    
 }
 
 .textefooter{
-    width: 30%;
-    
+    width: 30%;   
 }
    
     
