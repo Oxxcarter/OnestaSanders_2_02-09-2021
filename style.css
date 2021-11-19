@@ -242,7 +242,8 @@ input{
     padding: 30px 25px;
     margin-bottom: 20px;
     flex-direction: column;
-    width: 27%;          
+    width: 27%;   
+    
 }
 
 .titreeticone{
@@ -265,10 +266,10 @@ input{
 
 
 .fondgrispopulaires img{           
-    border-radius: 20px 0px 0px 20px;
     object-fit: cover;
-    width: 30%;
-    margin-top: 0px;   
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px
 }
 
 .backgroundwhitepopulaires{
