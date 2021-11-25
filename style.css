@@ -10,13 +10,13 @@
 body{
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 header{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     
        
     
@@ -37,6 +37,7 @@ ul a{
     text-decoration: none;
     padding-right: 40px;
     color: black;
+    padding-left: 40px;
                     
 }
 
@@ -52,22 +53,17 @@ li a:hover{
 
 #logo{
     width: 120px;
-    height: 50px;
-    
-    
+       
 }
 
-input{
-    border: none;
-    
-     
-    
-    
-}
+
 
 .enfantbarrenav{
     display:flex;
     text-align: inherit;
+    width: 30%;
+    
+    
 }
 
 .iconposition{
@@ -86,9 +82,9 @@ input{
     background: transparent;
     border: 1px #F2F2F2 solid;
     padding: 11px 5vw;
-    margin-left: -4px;
+    margin-left: -4px; 
+    width: 100%;
    
-    
 }
     
     
@@ -193,11 +189,14 @@ input{
     object-fit: cover;
     width: 100%;
     border-radius: 20px 20px 0 0;
+    
 }
 
 .hebergementetpopulaire{
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .hebergementfondgris{
@@ -231,10 +230,6 @@ input{
     position: relative;          
 }
 
-.stars{
-    display: flex;
-    align-items: flex-end;
-}
 
 .fondgrispopulaires{
     background: #F2F2F2;
@@ -254,14 +249,16 @@ input{
 
 .fondgrispopulaires article{
     width:100%;
-    display: flex;            
+    display: flex; 
+    margin-bottom: 50px;           
 }
 
 
 .populairestexte{
     flex-direction: column;
     padding-left: 15px;
-    padding-top: 10px;            
+    padding-top: 10px;  
+    width: 46%;          
 }
 
 
@@ -288,7 +285,7 @@ article p{
 }
 
 .stars{
-
+    display:flex;
     color: #0065FC;
 }
 
@@ -391,6 +388,10 @@ article p{
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0;
+}
+
+.activitésàmarseille{
+    margin-bottom: 50px;
 }
 
 
