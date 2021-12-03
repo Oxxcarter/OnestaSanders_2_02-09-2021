@@ -341,6 +341,15 @@ section h2{
 
 
 
+.sizeactivités{
+    font-size: 21px;
+}
+
+.activitésàmarseille h3{
+    font-size: 14px;
+}
+
+
 
 .blocactivités{
     width: 100%;
@@ -453,7 +462,15 @@ footer{
 .textefooter{
     width: 30%;   
 }
-   
+
+.weightandsize{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.textefooter p{
+    font-size: 12px;
+}
     
 
 
