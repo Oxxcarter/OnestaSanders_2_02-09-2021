@@ -490,7 +490,30 @@ footer{
 
 
 
-@media (max-width: 375px){
+@media (max-width: 992px){
+    .blocactivités{
+        flex-direction: column;
+    }
+
+    .portetcalanque{
+        width: 100%;
+    }
+
+    .blocactivitéspomegueetfrioul{
+        width: 100%;
+        
+    }
+    
+    .blocactivitésnotredametlongchamp{
+        width: 100%;
+        
+    }
+
+    .activitésàmarseille img{
+        height: 150px;
+    }
+
+
 
 
 
@@ -506,9 +529,9 @@ footer{
 
 
 
-@media (max-width: 375px){
+@media (max-width: 992px){
     footer{
-        width: 20%   
+        width: 100%   
     }
 
     .footerfondgris{
