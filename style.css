@@ -478,6 +478,66 @@ footer{
 
 
     
+@media (max-width: 992px){
+    header{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px){
+    #filtre{
+        flex-direction: column;
+    }
+
+    .flexwrap{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px){
+    .hebergementetpopulaire{
+        flex-direction: column;
+    }
+
+    .hebergementfondgris{
+        width: 100%;
+        order: 2;
+        
+    }
+
+    .fondgrispopulaires{
+        width: 100%;
+        order: 1;
+    }
+
+    .casehebergement{
+        flex-direction: column;
+    }
+
+    .backgroundwhite{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 
 
