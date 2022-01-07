@@ -462,6 +462,8 @@ section h2{
     .flexwrap{
         flex-wrap: wrap;
         width: 75%;
+        display: flex;
+        
     }
 
     #filtre{
@@ -472,15 +474,44 @@ section h2{
     .filtretexteicons{
         margin-bottom: 17px;
     }
-    
+
+
+    .filtretexte {
+        font-size: 16px;
+    }
+
+
+
+
+
+
 }
+
+
+
+
+
+
 
 @media (max-width: 992px){
     ul{
         flex-direction: column;
     }
+
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+
+    nav{
+        
+    }
    
 }
+
+
+
     
 
 
@@ -522,9 +553,18 @@ footer{
 @media (max-width: 992px){
     
 
-   
-
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -536,6 +576,7 @@ footer{
 @media (max-width: 992px){
     .hebergementetpopulaire{
         flex-direction: column;
+        padding: 0px;
     }
 
     .hebergementfondgris{
@@ -544,6 +585,7 @@ footer{
         padding-right: 0px;
         padding-left: 0px;
         background: none;
+        
 
         
     }
@@ -551,6 +593,7 @@ footer{
     .fondgrispopulaires{
         width: 100%;
         order: 1;
+        border-radius: 0px;
     }
 
     .casehebergement{
@@ -564,7 +607,7 @@ footer{
     }
 
     .hebergementetpopulaire img {
-        height: 100px;
+        height: 109px;
     }    
 
 
