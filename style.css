@@ -541,6 +541,10 @@ footer{
     .hebergementfondgris{
         width: 100%;
         order: 2;
+        padding-right: 0px;
+        padding-left: 0px;
+        background: none;
+
         
     }
 
@@ -555,7 +559,13 @@ footer{
 
     .backgroundwhite{
         width: 100%;
+        box-sizing: border-box;
+        height: 208px;
     }
+
+    .hebergementetpopulaire img {
+        height: 100px;
+    }    
 
 
 
@@ -592,17 +602,26 @@ footer{
 
     .blocactivitéspomegueetfrioul{
         width: 100%;
+        height: unset;
+        
         
     }
     
     .blocactivitésnotredametlongchamp{
         width: 100%;
+        height: unset;
         
     }
-
+    
     .activitésàmarseille img{
         height: 150px;
     }
+
+    .blocactivités article{
+        margin-bottom: 20px;
+    }
+
+    
 
 
 
