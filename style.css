@@ -62,32 +62,39 @@ li a:hover{
     font-size: 20px;
 }
 
-.enfantbarrenav{
+.parrentbarrenav{
     display:flex;
-    text-align: inherit;
-    width: 30%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    width: 25%;
+    border: 1px solid #F2F2F2;
     
     
 }
 
 .iconposition{
     background: #F2F2F2;
-    border: 1px #F2F2F2 solid;
-    padding: 5px 15px;
-    font-size: 20px;
-    border-radius: 15px 0 0 15px;
-    padding-top: 7px;
-    padding-bottom: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    border-radius: 10px 0 0 10px;
+    
     
     
 }
 
 input{
-    background: transparent;
-    border: 1px #F2F2F2 solid;
-    padding: 11px 5vw;
-    margin-left: -48px; 
-    border-radius: 15px 0 0 15px;
+    border: none;
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
    
 }
 
@@ -104,9 +111,9 @@ input{
     font-weight: bold;  
     background: #0065FC;
     border: 1px #0065FC solid;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 8px 8px 0;
     color: #FFF;
-    height: 43px;
+    height: 48px;
     padding: 0px 15px;
 }
 
@@ -461,7 +468,7 @@ section h2{
 @media (max-width: 992px){
     .flexwrap{
         flex-wrap: wrap;
-        width: 75%;
+        width: 100%;
         display: flex;
         
     }
@@ -472,14 +479,28 @@ section h2{
     }
 
     .filtretexteicons{
-        margin-bottom: 17px;
+        margin-bottom: 10px;
+        height: 39px;
+        margin-right: 6px;
+    }
+
+    .filtreicons{
+        height: 44px;
+        width: 44px;
+        
     }
 
 
     .filtretexte {
         font-size: 16px;
+        padding-left: 9px;
+        padding-right: 8px;
     }
 
+    #margtitrefiltre{
+        margin-right: 0px;
+    }
+    
 
 
 
@@ -495,24 +516,68 @@ section h2{
 
 @media (max-width: 992px){
     ul{
-        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        
+          
     }
 
     header{
         padding-left: 0px;
         padding-right: 0px;
+        flex-direction: column;
         
     }
 
     nav{
+        width: 100%;
         
+    }
+
+    header a{
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    li a:hover{
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        padding-left: 10px;
+        padding-right: 10px;
+
+
     }
    
 }
 
 
+@media (max-width: 992px){
+    .parrentbarrenav{
+        width: 100%;
+    }
+
+
+    .mobilenone{
+        display: none;
+    }
+
+    .desktopnone{
+        display: block;
+    }
+}
+
+
 
     
+
+
+
+
 
 
 
@@ -544,16 +609,9 @@ footer{
 
 
     
-@media (max-width: 992px){
-    header{
-        flex-direction: column;
-    }
-}
 
-@media (max-width: 992px){
-    
 
-}
+
 
 
 
@@ -702,8 +760,9 @@ footer{
 
 
 
-
-
+.desktopnone{
+    display: none;
+}
 
 
 
