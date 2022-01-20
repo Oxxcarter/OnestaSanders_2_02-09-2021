@@ -117,7 +117,9 @@ input{
     padding: 0px 15px;
 }
 
-
+.desktopnone{
+    display: none;
+}
 
     
     
@@ -177,6 +179,13 @@ input{
     color: white;
 }
 
+.flexwrap{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+
 .iconinfo{
     display: flex;
     align-items: center;
@@ -193,6 +202,8 @@ input{
     align-items: center;
     margin-right: 10px;
 }
+
+
 
 
 
@@ -258,6 +269,9 @@ input{
     font-size: 12px;
 }
 
+.bold{
+    font-weight: bold;
+}
 
 
 .fondgrispopulaires{
@@ -346,11 +360,6 @@ section h2{
 }
 
 
-   
-
-
-
-
 
 
 .sizeactivités{
@@ -361,7 +370,6 @@ section h2{
     font-size: 14px;
     padding-left: 22px;
 }
-
 
 
 .blocactivités{
@@ -459,129 +467,6 @@ section h2{
 }
 
 
-.flexwrap{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-    
-@media (max-width: 992px){
-    .flexwrap{
-        flex-wrap: wrap;
-        width: 100%;
-        display: flex;
-        
-    }
-
-    #filtre{
-        flex-direction: column;
-        
-    }
-
-    .filtretexteicons{
-        margin-bottom: 10px;
-        height: 39px;
-        margin-right: 6px;
-    }
-
-    .filtreicons{
-        height: 44px;
-        width: 44px;
-        
-    }
-
-
-    .filtretexte {
-        font-size: 16px;
-        padding-left: 9px;
-        padding-right: 8px;
-    }
-
-    #margtitrefiltre{
-        margin-right: 0px;
-    }
-    
-
-
-
-
-
-}
-
-
-
-
-
-
-
-@media (max-width: 992px){
-    ul{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        list-style-type: none;
-        padding-left: 0px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        
-          
-    }
-
-    header{
-        padding-left: 0px;
-        padding-right: 0px;
-        flex-direction: column;
-        
-    }
-
-    nav{
-        width: 100%;
-        
-    }
-
-    header a{
-        padding: 0px;
-        flex-direction: column;
-    }
-
-    li a:hover{
-        border-top: none;
-        border-bottom: 3px solid #0065FC;
-        padding-left: 10px;
-        padding-right: 10px;
-
-
-    }
-   
-}
-
-
-@media (max-width: 992px){
-    .parrentbarrenav{
-        width: 100%;
-    }
-
-
-    .mobilenone{
-        display: none;
-    }
-
-    .desktopnone{
-        display: block;
-    }
-}
-
-
-
-    
-
-
-
-
-
-
-
-
 
 
 footer{
@@ -608,23 +493,6 @@ footer{
 }
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -632,6 +500,141 @@ footer{
 
 
 @media (max-width: 992px){
+
+    #logo{
+        margin-bottom: 20px;
+    }
+
+    .header{
+        margin-bottom: 40px;
+    }
+
+    .entete, h1{
+        font-size: 24px;
+    }
+
+    .entete{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        
+          
+    }
+
+    .paddingleftandright{
+        padding-left: 10px;
+        padding-right: 10px;
+        flex-direction: column;
+        
+    }
+
+    nav{
+        width: 100%;
+        
+    }
+
+    header a{
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    li a:hover{
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        padding-left: 10px;
+        padding-right: 10px;
+
+
+    }
+
+
+
+    .parrentbarrenav{
+        width: 79%;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .button{
+        border-radius: 8px;
+    }
+
+
+    .mobilenone{
+        display: none;
+        
+    }
+
+    .desktopnone{
+        display: flex;
+    }
+
+    .flexwrap{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        
+    }
+
+    #filtre{
+        flex-direction: column;
+        align-items: unset;
+        margin-top: 30px;
+        
+    }
+
+    .filtretexteicons{
+        margin-bottom: 10px;
+        height: 39px;
+        margin-right: 6px;
+    }
+
+    .filtreicons{
+        height: 44px;
+        width: 44px;
+        
+    }
+
+
+    .filtretexte {
+        font-size: 16px;
+        padding-left: 9px;
+        padding-right: 8px;
+    }
+
+    #margtitrefiltre{
+        margin-right: 0px;
+    }
+
+    #filtre, h3{
+        margin-top: 0px;
+    }
+
+    .info{
+        width: 25px;
+    }
+
+    .iconinfo{
+        margin-bottom: 15px;
+    }
+    
+
+
+
+    section h2{
+        margin-top: 0px;
+    }
+
+
     .hebergementetpopulaire{
         flex-direction: column;
         padding: 0px;
@@ -640,12 +643,9 @@ footer{
     .hebergementfondgris{
         width: 100%;
         order: 2;
-        padding-right: 0px;
-        padding-left: 0px;
-        background: none;
-        
-
-        
+        padding-right: 10px;
+        padding-left: 10px;
+        background: none;         
     }
 
     .fondgrispopulaires{
@@ -668,31 +668,10 @@ footer{
         height: 109px;
     }    
 
+    .sizeactivités{
+        margin-top: 0px;
+    }
 
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 992px){
     .blocactivités{
         flex-direction: column;
     }
@@ -722,25 +701,11 @@ footer{
         margin-bottom: 20px;
     }
 
+    .activitésàmarseille{
+        margin-bottom: 25px;
+    }
+
     
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 992px){
     footer{
         width: 100%   
     }
@@ -756,13 +721,42 @@ footer{
     .weightandsize{
         font-size: 9px;
     }
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
 
-.desktopnone{
-    display: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
