@@ -559,8 +559,12 @@ footer{
     li{
         width: 50%;
         text-align: center;
+        border-bottom: 1px solid #F2F2F2;
     }
 
+   li :hover{
+       color: #0065FC;
+   }
 
 
     .parrentbarrenav{
